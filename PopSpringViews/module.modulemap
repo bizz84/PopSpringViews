@@ -1,0 +1,11 @@
+ module PopSpringViews {
+    umbrella header "PopSpringViews.h"
+
+    module SwiftPop {
+        header "pop/POP.h"
+        export *
+    }
+    
+    export *
+    module * { export * }
+}

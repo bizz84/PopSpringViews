@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65E82F7F1E4BBE5C0068519C /* PopSpringViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E82F7D1E4BBE5C0068519C /* PopSpringViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591DB1CCA113C5F2FB2AEFC9 /* libPods-PopSpringViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8C9E116FF4F1BF561A898C /* libPods-PopSpringViews.a */; };
+		65E82F861E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E82F851E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift */; };
+		65E82F921E4BC82A0068519C /* PopSpringViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E82F7D1E4BBE5C0068519C /* PopSpringViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65E82F7A1E4BBE5C0068519C /* PopSpringViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopSpringViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E82F7D1E4BBE5C0068519C /* PopSpringViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopSpringViews.h; sourceTree = "<group>"; };
 		65E82F7E1E4BBE5C0068519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E82F851E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+PopSpringAnimation.swift"; sourceTree = "<group>"; };
+		65E82F901E4BC3780068519C /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		65E82F911E4BC5E30068519C /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		C6B26C822DDBF5A1474A83A0 /* Pods-PopSpringViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSpringViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopSpringViews/Pods-PopSpringViews.debug.xcconfig"; sourceTree = "<group>"; };
+		DB8C9E116FF4F1BF561A898C /* libPods-PopSpringViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopSpringViews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3976D8C906D540BDAA2388 /* Pods-PopSpringViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSpringViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopSpringViews/Pods-PopSpringViews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +29,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591DB1CCA113C5F2FB2AEFC9 /* libPods-PopSpringViews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15881BA18FB4106C7F7BBC6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB8C9E116FF4F1BF561A898C /* libPods-PopSpringViews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4916FD1A4CFF903459D95F39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6B26C822DDBF5A1474A83A0 /* Pods-PopSpringViews.debug.xcconfig */,
+				FD3976D8C906D540BDAA2388 /* Pods-PopSpringViews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		65E82F701E4BBE5C0068519C = {
 			isa = PBXGroup;
 			children = (
 				65E82F7C1E4BBE5C0068519C /* PopSpringViews */,
 				65E82F7B1E4BBE5C0068519C /* Products */,
+				4916FD1A4CFF903459D95F39 /* Pods */,
+				15881BA18FB4106C7F7BBC6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +74,21 @@
 		65E82F7C1E4BBE5C0068519C /* PopSpringViews */ = {
 			isa = PBXGroup;
 			children = (
+				65E82F8F1E4BC3780068519C /* SwiftPOP */,
+				65E82F851E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift */,
 				65E82F7D1E4BBE5C0068519C /* PopSpringViews.h */,
 				65E82F7E1E4BBE5C0068519C /* Info.plist */,
+				65E82F911E4BC5E30068519C /* module.modulemap */,
 			);
 			path = PopSpringViews;
+			sourceTree = "<group>";
+		};
+		65E82F8F1E4BC3780068519C /* SwiftPOP */ = {
+			isa = PBXGroup;
+			children = (
+				65E82F901E4BC3780068519C /* module.modulemap */,
+			);
+			path = SwiftPOP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E82F7F1E4BBE5C0068519C /* PopSpringViews.h in Headers */,
+				65E82F921E4BC82A0068519C /* PopSpringViews.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65E82F821E4BBE5C0068519C /* Build configuration list for PBXNativeTarget "PopSpringViews" */;
 			buildPhases = (
+				CF9601D11F13560805CF33FE /* [CP] Check Pods Manifest.lock */,
 				65E82F751E4BBE5C0068519C /* Sources */,
 				65E82F761E4BBE5C0068519C /* Frameworks */,
 				65E82F771E4BBE5C0068519C /* Headers */,
 				65E82F781E4BBE5C0068519C /* Resources */,
+				47B24D999D39C17B84E041DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -95,6 +136,7 @@
 				TargetAttributes = {
 					65E82F791E4BBE5C0068519C = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,11 +168,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47B24D999D39C17B84E041DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopSpringViews/Pods-PopSpringViews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9601D11F13560805CF33FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65E82F751E4BBE5C0068519C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E82F861E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,37 +314,60 @@
 		};
 		65E82F831E4BBE5C0068519C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B26C822DDBF5A1474A83A0 /* Pods-PopSpringViews.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"$(SRC_ROOT)/PopSpringViews",
+				);
 				INFOPLIST_FILE = PopSpringViews/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = PopSpringViews/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.musevisions.iOS.PopSpringViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/PopSpringViews/SwiftPOP $(SRCROOT)/Pods/pop";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/PopSpringViews \"${PODS_ROOT}/Headers/Public\"/**";
 			};
 			name = Debug;
 		};
 		65E82F841E4BBE5C0068519C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3976D8C906D540BDAA2388 /* Pods-PopSpringViews.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"$(SRC_ROOT)/PopSpringViews",
+				);
 				INFOPLIST_FILE = PopSpringViews/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = PopSpringViews/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.musevisions.iOS.PopSpringViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/PopSpringViews/SwiftPOP $(SRCROOT)/Pods/pop";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/PopSpringViews \"${PODS_ROOT}/Headers/Public\"/**";
 			};
 			name = Release;
 		};
@@ -291,6 +390,7 @@
 				65E82F841E4BBE5C0068519C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
