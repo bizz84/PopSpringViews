@@ -17,7 +17,6 @@
 		65E82F7D1E4BBE5C0068519C /* PopSpringViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopSpringViews.h; sourceTree = "<group>"; };
 		65E82F7E1E4BBE5C0068519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E82F851E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+PopSpringAnimation.swift"; sourceTree = "<group>"; };
-		65E82F901E4BC3780068519C /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		65E82F911E4BC5E30068519C /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		C6B26C822DDBF5A1474A83A0 /* Pods-PopSpringViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSpringViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopSpringViews/Pods-PopSpringViews.debug.xcconfig"; sourceTree = "<group>"; };
 		DB8C9E116FF4F1BF561A898C /* libPods-PopSpringViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopSpringViews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,21 +73,12 @@
 		65E82F7C1E4BBE5C0068519C /* PopSpringViews */ = {
 			isa = PBXGroup;
 			children = (
-				65E82F8F1E4BC3780068519C /* SwiftPOP */,
 				65E82F851E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift */,
 				65E82F7D1E4BBE5C0068519C /* PopSpringViews.h */,
 				65E82F7E1E4BBE5C0068519C /* Info.plist */,
 				65E82F911E4BC5E30068519C /* module.modulemap */,
 			);
 			path = PopSpringViews;
-			sourceTree = "<group>";
-		};
-		65E82F8F1E4BC3780068519C /* SwiftPOP */ = {
-			isa = PBXGroup;
-			children = (
-				65E82F901E4BC3780068519C /* module.modulemap */,
-			);
-			path = SwiftPOP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

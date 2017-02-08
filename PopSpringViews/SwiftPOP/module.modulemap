@@ -1,4 +1,0 @@
-module SwiftPop [system] {
-    header "POP/POP.h"
-    export *
-}

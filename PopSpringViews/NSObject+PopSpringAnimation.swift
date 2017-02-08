@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftPop
+//import SwiftPop
 
 public extension NSObject {
     
