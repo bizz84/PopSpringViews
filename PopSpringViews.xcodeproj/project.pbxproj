@@ -10,6 +10,11 @@
 		591DB1CCA113C5F2FB2AEFC9 /* libPods-PopSpringViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8C9E116FF4F1BF561A898C /* libPods-PopSpringViews.a */; };
 		65E82F861E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E82F851E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift */; };
 		65E82F921E4BC82A0068519C /* PopSpringViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E82F7D1E4BBE5C0068519C /* PopSpringViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E82F9A1E4BCFB80068519C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E82F991E4BCFB80068519C /* AppDelegate.swift */; };
+		65E82F9C1E4BCFB80068519C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E82F9B1E4BCFB80068519C /* ViewController.swift */; };
+		65E82F9F1E4BCFB80068519C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E82F9D1E4BCFB80068519C /* Main.storyboard */; };
+		65E82FA11E4BCFB80068519C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E82FA01E4BCFB80068519C /* Assets.xcassets */; };
+		65E82FA41E4BCFB80068519C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E82FA21E4BCFB80068519C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +23,13 @@
 		65E82F7E1E4BBE5C0068519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E82F851E4BBE7E0068519C /* NSObject+PopSpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+PopSpringAnimation.swift"; sourceTree = "<group>"; };
 		65E82F911E4BC5E30068519C /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		65E82F971E4BCFB70068519C /* PopSpringViewsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopSpringViewsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E82F991E4BCFB80068519C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65E82F9B1E4BCFB80068519C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65E82F9E1E4BCFB80068519C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65E82FA01E4BCFB80068519C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E82FA31E4BCFB80068519C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65E82FA51E4BCFB80068519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B26C822DDBF5A1474A83A0 /* Pods-PopSpringViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSpringViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopSpringViews/Pods-PopSpringViews.debug.xcconfig"; sourceTree = "<group>"; };
 		DB8C9E116FF4F1BF561A898C /* libPods-PopSpringViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopSpringViews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3976D8C906D540BDAA2388 /* Pods-PopSpringViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopSpringViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopSpringViews/Pods-PopSpringViews.release.xcconfig"; sourceTree = "<group>"; };
@@ -29,6 +41,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				591DB1CCA113C5F2FB2AEFC9 /* libPods-PopSpringViews.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E82F941E4BCFB70068519C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				65E82F7C1E4BBE5C0068519C /* PopSpringViews */,
+				65E82F981E4BCFB80068519C /* PopSpringViewsDemo */,
 				65E82F7B1E4BBE5C0068519C /* Products */,
 				4916FD1A4CFF903459D95F39 /* Pods */,
 				15881BA18FB4106C7F7BBC6F /* Frameworks */,
@@ -66,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				65E82F7A1E4BBE5C0068519C /* PopSpringViews.framework */,
+				65E82F971E4BCFB70068519C /* PopSpringViewsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +100,19 @@
 				65E82F911E4BC5E30068519C /* module.modulemap */,
 			);
 			path = PopSpringViews;
+			sourceTree = "<group>";
+		};
+		65E82F981E4BCFB80068519C /* PopSpringViewsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65E82F991E4BCFB80068519C /* AppDelegate.swift */,
+				65E82F9B1E4BCFB80068519C /* ViewController.swift */,
+				65E82F9D1E4BCFB80068519C /* Main.storyboard */,
+				65E82FA01E4BCFB80068519C /* Assets.xcassets */,
+				65E82FA21E4BCFB80068519C /* LaunchScreen.storyboard */,
+				65E82FA51E4BCFB80068519C /* Info.plist */,
+			);
+			path = PopSpringViewsDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,18 +149,40 @@
 			productReference = 65E82F7A1E4BBE5C0068519C /* PopSpringViews.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		65E82F961E4BCFB70068519C /* PopSpringViewsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E82FA61E4BCFB80068519C /* Build configuration list for PBXNativeTarget "PopSpringViewsDemo" */;
+			buildPhases = (
+				65E82F931E4BCFB70068519C /* Sources */,
+				65E82F941E4BCFB70068519C /* Frameworks */,
+				65E82F951E4BCFB70068519C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopSpringViewsDemo;
+			productName = PopSpringViewsDemo;
+			productReference = 65E82F971E4BCFB70068519C /* PopSpringViewsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		65E82F711E4BBE5C0068519C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = musevisions;
 				TargetAttributes = {
 					65E82F791E4BBE5C0068519C = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					65E82F961E4BCFB70068519C = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +193,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 65E82F701E4BBE5C0068519C;
 			productRefGroup = 65E82F7B1E4BBE5C0068519C /* Products */;
@@ -144,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				65E82F791E4BBE5C0068519C /* PopSpringViews */,
+				65E82F961E4BCFB70068519C /* PopSpringViewsDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +211,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E82F951E4BCFB70068519C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E82FA41E4BCFB80068519C /* LaunchScreen.storyboard in Resources */,
+				65E82FA11E4BCFB80068519C /* Assets.xcassets in Resources */,
+				65E82F9F1E4BCFB80068519C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +268,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65E82F931E4BCFB70068519C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E82F9C1E4BCFB80068519C /* ViewController.swift in Sources */,
+				65E82F9A1E4BCFB80068519C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65E82F9D1E4BCFB80068519C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E82F9E1E4BCFB80068519C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65E82FA21E4BCFB80068519C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E82FA31E4BCFB80068519C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		65E82F801E4BBE5C0068519C /* Debug */ = {
@@ -361,6 +457,30 @@
 			};
 			name = Release;
 		};
+		65E82FA71E4BCFB80068519C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopSpringViewsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.musevisions.iOS.PopSpringViewsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65E82FA81E4BCFB80068519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopSpringViewsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.musevisions.iOS.PopSpringViewsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -381,6 +501,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		65E82FA61E4BCFB80068519C /* Build configuration list for PBXNativeTarget "PopSpringViewsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E82FA71E4BCFB80068519C /* Debug */,
+				65E82FA81E4BCFB80068519C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

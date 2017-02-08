@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PopSpringViewsDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>65E82F791E4BBE5C0068519C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>65E82F961E4BCFB70068519C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
