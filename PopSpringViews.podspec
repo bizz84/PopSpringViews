@@ -9,9 +9,15 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/bizz84/PopSpringViews.git", :tag => s.version }
 
-  s.source_files = 'PopSpringViews/*.{swift}'
+  s.source_files = 'PopSpringViews/*.{h,swift}'
+  s.module_name  = 'PopSpringViews'
 
   s.screenshots  = []
 
   s.requires_arc = true
+
+  s.dependency 'pop'
+  s.xcconfig = {
+    'HEADER_SEARCH_PATHS' => 'Pods/Headers/Public/pop'
+  }
 end
